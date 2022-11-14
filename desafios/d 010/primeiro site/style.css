@@ -1,0 +1,166 @@
+@charset "UTF-8";
+@font-face {
+   font-family: 'android';
+   src: url('fontes/idroid.otf') format('opentype'); 
+   font-weight: normal;
+   font-style: normal;
+}
+body{
+   text-align:justify;
+   background-color:#6ab675;
+   border: 0%;
+   font-family: sans-serif;
+}
+header{
+   text-align: center;
+   background-image: linear-gradient(to bottom, rgba(5, 209, 124, 0.644), rgba(0, 0, 0, 0.644));
+   color: white;
+   width: auto;
+   height: auto;
+   padding: 10px;
+   border: 20px  solid (5, 209, 124, 0.644);
+   margin: -10px;
+   
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   min-width: 200px;
+
+
+}
+
+ul > li > a{
+   color: black;
+}
+main > article > h1{
+   font-family: 'android',sans-serif;
+}
+a{
+   text-decoration: none;
+   color: rgb(2, 112, 50);
+   font-weight:bold;
+   padding: 5px 10px;
+   
+}
+a:hover{
+   text-decoration: underline;
+   background-color: #04b18659;
+   
+}
+nav{
+   text-align: left;
+   margin: 30px auto 10px ;
+  
+
+
+}
+nav > a{
+   color: white;
+   font-size: 1em;
+   color: white;
+   margin: auto 10px ;
+   
+   
+}
+nav a:hover{
+   padding: 10px;
+   border-radius: 5px;
+   text-indent: 1s;
+}
+main{
+  
+   min-width: 300px;
+   MAX-width: 1000px;
+   background-color: white;
+   padding:15px;
+   margin: auto ;
+   border: 10px;
+   border-bottom-left-radius:10px ;
+   border-bottom-right-radius:10px ;
+
+}
+main > article > a{
+   background-color: #aafab6;
+}
+h2{
+   background-image: linear-gradient(to right, #78f58b, transparent);
+   font-family: 'android';
+}
+ul{
+   list-style: none;
+}
+.caixa{
+   width: 100%;
+   margin: auto;
+   list-style-position: inside;
+   text-align: left ;
+   columns:2;
+   list-style-type:'\1F916\00A0'
+   
+
+}
+abbr{
+   text-decoration: none;
+}
+#rodape{
+   text-align: center;
+   background-color: #014214;
+   color: white;
+   border: 10px solid #014214;
+   margin: 20px -10px -10px -10px ;
+}
+#tema2{
+   background-color: #88fcabe5;
+   border: 10px  solid #88fcabe8;
+   border-radius: 20px 20px 20px 20px;
+   border-top: 1px;
+   border: 0%;
+   color: black;
+}
+h3{
+   background-color: #024917;
+   color: white;
+   border: 10px solid #024917;
+   border-radius: 10px 10px 0px 0px ;
+   margin: auto -10px;
+}
+main img{
+   width: 100%;
+   display: inline-block;
+
+}
+main img#img{
+   display: block;
+   margin: auto;
+   max-width: 350px;
+}
+main p{
+   text-indent: 30px;
+   line-height: 2em;
+}
+.video{
+    background-color: #014214;
+    margin: 0px -30px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;
+ }
+div > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+   width: 90%;
+   height: 90%;
+
+   
+}
+div {
+display: flex;
+justify-content: center;
+}
+.cc{
+background-color: rgb(4, 255, 108);
+font-weight: bold;
+}
+strong{
+color: rgb(0, 63, 25);
+font-weight:bold;
+}

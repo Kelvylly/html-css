@@ -1,0 +1,19 @@
+body{
+    background-color: black; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size:25px ; 
+    
+}
+h1{ 
+    background-color: rgb(122, 122, 122);
+    color:white;
+   
+}
+h2{
+   
+    color:white;
+}
+p{
+    text-align:justify ;
+    color:white;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinâmica</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/ftP.png" type="image/png">
+     <source media="(max-width: 1050px)" srcset="imagem/ftM.png" type="image/png">
+        <img src="imagem/ftG.png" alt="imagem flexivel">
+
+</picture>
+
+    <h1>Reprodução de audio</h1>
+    
+    <audio preload="metadata"autoplay controls loop>
+        <source src="midia/Contrast - Anno Domini Beats.mp3" type="audio/mpeg">
+    </audio>
+    <p>se a musica não apareceu  quer dizer que seu navegador não suporta o audio se quiser escurta <a href="midia/Contrast - Anno Domini Beats.mp3">baixar aqui</a></p>
+</body>
+</html>
