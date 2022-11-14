@@ -17,14 +17,17 @@ header{
    color: white;
    width: auto;
    height: auto;
-   padding: 10px;
+   padding: 2px;
    border: 20px  solid (5, 209, 124, 0.644);
-   margin: -10px;
+   margin: -10px -10px 0px;
    
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    min-width: 200px;
 
 
+}
+h1{
+   padding: 20px 0px 0px;
 }
 
 ul > li > a{
@@ -42,12 +45,13 @@ a{
 }
 a:hover{
    text-decoration: underline;
-   background-color: #04b18659;
+   background-color: #07f7bb59;
+   padding: 5px 10px;
    
 }
 nav{
    text-align: left;
-   margin: 30px auto 10px ;
+   margin: 42px auto 20px ;
   
 
 
@@ -56,7 +60,7 @@ nav > a{
    color: white;
    font-size: 1em;
    color: white;
-   margin: auto 10px ;
+   margin: 2px;
    
    
 }
@@ -70,7 +74,7 @@ main{
    min-width: 300px;
    MAX-width: 1000px;
    background-color: white;
-   padding:15px;
+   padding:10px 15px 15px;
    margin: auto ;
    border: 10px;
    border-bottom-left-radius:10px ;
@@ -78,7 +82,8 @@ main{
 
 }
 main > article > a{
-   background-color: #aafab6;
+   background-color: #81f592;
+   color: #10403B;
 }
 h2{
    background-image: linear-gradient(to right, #78f58b, transparent);
@@ -138,8 +143,8 @@ main p{
 }
 .video{
     background-color: #014214;
-    margin: 0px -30px 30px -20px;
-    padding: 20px;
+    margin: 0px -15px 30px -15px;
+    padding: 20px 30px;
     padding-bottom: 56%;
     position: relative;
  }
@@ -161,6 +166,6 @@ background-color: rgb(4, 255, 108);
 font-weight: bold;
 }
 strong{
-color: rgb(0, 63, 25);
+color: rgb(1, 75, 31);
 font-weight:bold;
 }
