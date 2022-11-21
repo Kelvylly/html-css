@@ -102,6 +102,13 @@ ul{
    
 
 }
+li{
+   li {
+      display: inline-block;
+      padding: 20px;
+    }
+    
+}
 abbr{
    text-decoration: none;
 }
