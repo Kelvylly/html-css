@@ -48,7 +48,9 @@ a:hover{
 section{
     height: 800px;
     line-height: 30px;
-    
+}
+section image{
+
 }
 section p{
     font-family: 'Dancing Script', cursive;
@@ -59,7 +61,7 @@ p{
     padding-bottom: 10px;
 }
 .image{
-    background:left center no-repeat fixed;
+    background: no-repeat fixed;
     background-size: cover;
     box-shadow: inset 2px 2px 6px 0px rgba(0, 0, 0, 0.356);
 }
@@ -77,7 +79,7 @@ p{
 
 }
 #tema1{
-    background:url('../imagens/background001.jpg') left center no-repeat fixed;
+    background:url('../imagens/background001.jpg')  right center no-repeat fixed;
 }
 #tema2{
     background:url('../imagens/background002.jpg') right center no-repeat fixed;
