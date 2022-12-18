@@ -3,12 +3,14 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: rgba(0, 0, 0, 0.993);
+    color: white;
 }
 H1{
     text-align: center;
 }
-MAIN{
+main{
+    max-width: 850px;
     margin:auto;
 }
 p{
