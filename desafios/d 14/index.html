@@ -5,44 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafios de tabelas</title>
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        table{
-            border-collapse: collapse;
-            width: 700px;
-            height: 200px;
-        }
-        caption{
-            font-weight: 700;
-            font-size: 1.5em;
-            border: 1px solid black;
-            padding: 5px;
-
-        }
-        td ,th{
-            border: 1px solid black;
-            text-align: center;
-            line-height: 2em;
-        }
-        .tb{
-            background-color: rgb(0, 56, 109);
-            color: white;
-            
-        }
-        .nome{
-            text-align: left;
-        }
-        #resultado:hover{
-            background: rgba(1, 92, 92, 0.336);
-        }
-        </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
+    <table >
         <thead>
-            <tr class="tb">
+            <tr  class="tb" id="ht">
                 <th rowspan="2" scope="col">Àrea</th>
                 <th rowspan="2" scope="col">Diciplina</th>
                 <th colspan="2" scope="colgroup">Notas</th>
